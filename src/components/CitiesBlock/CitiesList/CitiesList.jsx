@@ -12,8 +12,8 @@ import { listStyles, itemStyles } from '../../../styles/listStyles';
 
 const CitiesList = ({ cities }) => (
   <ul css={listStyles}>
-    {cities.map((city, index) => (
-      <li key={index}>
+    {cities.map((city, index1) => (
+      <li key={index1}>
         <Paper>
           <div css={itemStyles}>
             <p>{city.name}</p>

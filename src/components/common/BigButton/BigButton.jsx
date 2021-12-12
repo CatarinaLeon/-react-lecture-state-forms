@@ -26,9 +26,25 @@ const btnStyles = {
   },
 };
 
-const BigButton = ({ icon, text }) => {
+const defineStyles = isGrey => ({
+  ...btnStyles,
+  backgroundColor: isGrey ? '#BDBDBD' : '#FF6B0A',
+});
+
+const BigButton = props => {
+  const {
+    text,
+    icon,
+    onClick = () => {},
+    type = 'button',
+    disabled = false,
+    isGray = false,
+  } = props;
+
+  const finalStyles = defineStyles(isGray);
+
   return (
-    <button css={btnStyles}>
+    <button css={finalStyles} type={type} onClick={onClick} disabled={disabled}>
       {icon && <img className="image" src={icon} alt={text} />}
       <span className="heading">{text}</span>
     </button>
@@ -37,8 +53,26 @@ const BigButton = ({ icon, text }) => {
 
 BigButton.propTypes = {
   text: PropTypes.string.isRequired,
-  onclick: PropTypes.func,
-  icon: PropTypes.string,
+  icon: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
+  onClick: PropTypes.func,
+  type: PropTypes.string,
+  disabled: PropTypes.bool,
+  isGray: PropTypes.bool,
 };
+
+// const BigButton = ({ icon, text }) => {
+//   return (
+//     <button css={btnStyles}>
+//       {icon && <img className="image" src={icon} alt={text} />}
+//       <span className="heading">{text}</span>
+//     </button>
+//   );
+// };
+
+// BigButton.propTypes = {
+//   text: PropTypes.string.isRequired,
+//   onclick: PropTypes.func,
+//   icon: PropTypes.string,
+// };
 
 export default BigButton;

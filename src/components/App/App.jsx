@@ -1,5 +1,6 @@
 import Main from '../Main/Main';
 import Sidebar from '../Sidebar/Sidebar';
+// import React, { Component } from 'react'
 
 import './App.css';
 

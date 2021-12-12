@@ -39,14 +39,13 @@ const dataTextStyles = {
 };
 
 const Tutor = props => {
-  const { firstName, lastName, patronymic, phone, email, city, options } =
-    props;
+  const { firstName, lastName, gender, phone, email, city, isFullTime } = props;
   return (
     <div css={blockStyles}>
       <div css={nameStyles}>
         <p>{lastName}</p>
         <p>{firstName}</p>
-        <p>{patronymic}</p>
+        <p>{gender}</p>
       </div>
       <div css={dataStyles}>
         <p css={dataTextStyles}>
@@ -63,7 +62,7 @@ const Tutor = props => {
         </p>
       </div>
       <div>
-        <p>{options}</p>
+        <p>На постоянной основе: {isFullTime ? 'Да' : 'Нет'}</p>
       </div>
     </div>
   );
@@ -72,11 +71,11 @@ const Tutor = props => {
 Tutor.propTypes = {
   firstName: PropTypes.string.isRequired,
   lastName: PropTypes.string.isRequired,
-  patronymic: PropTypes.string.isRequired,
+  gender: PropTypes.string,
   phone: PropTypes.string.isRequired,
   email: PropTypes.string.isRequired,
   city: PropTypes.string.isRequired,
-  options: PropTypes.string.isRequired,
+  isFullTime: PropTypes.bool,
 };
 
 export default Tutor;
