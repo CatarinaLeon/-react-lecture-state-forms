@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Modal.module.css';
 
 class Modal extends Component {
+  // Метод клик по бекдропу
   handleBackdropClick = e => {
     if (e.target === e.currentTarget) {
       this.props.onClose();
