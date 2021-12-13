@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-lecture-state-forms/static/css/main.6fb8b638.chunk.css",
-    "main.js": "/react-lecture-state-forms/static/js/main.fa46cf65.chunk.js",
-    "main.js.map": "/react-lecture-state-forms/static/js/main.fa46cf65.chunk.js.map",
-    "runtime-main.js": "/react-lecture-state-forms/static/js/runtime-main.9a3ec337.js",
-    "runtime-main.js.map": "/react-lecture-state-forms/static/js/runtime-main.9a3ec337.js.map",
-    "static/js/2.d36e83a2.chunk.js": "/react-lecture-state-forms/static/js/2.d36e83a2.chunk.js",
-    "static/js/2.d36e83a2.chunk.js.map": "/react-lecture-state-forms/static/js/2.d36e83a2.chunk.js.map",
-    "index.html": "/react-lecture-state-forms/index.html",
-    "static/css/main.6fb8b638.chunk.css.map": "/react-lecture-state-forms/static/css/main.6fb8b638.chunk.css.map",
-    "static/js/2.d36e83a2.chunk.js.LICENSE.txt": "/react-lecture-state-forms/static/js/2.d36e83a2.chunk.js.LICENSE.txt",
-    "static/media/add.d0de6ae0.svg": "/react-lecture-state-forms/static/media/add.d0de6ae0.svg",
-    "static/media/delete.58cc0fc3.svg": "/react-lecture-state-forms/static/media/delete.58cc0fc3.svg",
-    "static/media/dots.5932bf50.svg": "/react-lecture-state-forms/static/media/dots.5932bf50.svg",
-    "static/media/edit.c8dbb63f.svg": "/react-lecture-state-forms/static/media/edit.c8dbb63f.svg",
-    "static/media/Sidebar.css": "/react-lecture-state-forms/static/media/hide.ed0b8ac3.svg",
-    "static/media/location.cf55b5bb.svg": "/react-lecture-state-forms/static/media/location.cf55b5bb.svg",
-    "static/media/mail.fdbc9eb8.svg": "/react-lecture-state-forms/static/media/mail.fdbc9eb8.svg",
-    "static/media/phone.b784727a.svg": "/react-lecture-state-forms/static/media/phone.b784727a.svg"
+    "main.css": "/react-university-03-state-forms/static/css/main.a27ce38e.chunk.css",
+    "main.js": "/react-university-03-state-forms/static/js/main.12ee07e0.chunk.js",
+    "main.js.map": "/react-university-03-state-forms/static/js/main.12ee07e0.chunk.js.map",
+    "runtime-main.js": "/react-university-03-state-forms/static/js/runtime-main.88111357.js",
+    "runtime-main.js.map": "/react-university-03-state-forms/static/js/runtime-main.88111357.js.map",
+    "static/js/2.d36e83a2.chunk.js": "/react-university-03-state-forms/static/js/2.d36e83a2.chunk.js",
+    "static/js/2.d36e83a2.chunk.js.map": "/react-university-03-state-forms/static/js/2.d36e83a2.chunk.js.map",
+    "index.html": "/react-university-03-state-forms/index.html",
+    "static/css/main.a27ce38e.chunk.css.map": "/react-university-03-state-forms/static/css/main.a27ce38e.chunk.css.map",
+    "static/js/2.d36e83a2.chunk.js.LICENSE.txt": "/react-university-03-state-forms/static/js/2.d36e83a2.chunk.js.LICENSE.txt",
+    "static/media/add.d0de6ae0.svg": "/react-university-03-state-forms/static/media/add.d0de6ae0.svg",
+    "static/media/delete.58cc0fc3.svg": "/react-university-03-state-forms/static/media/delete.58cc0fc3.svg",
+    "static/media/dots.5932bf50.svg": "/react-university-03-state-forms/static/media/dots.5932bf50.svg",
+    "static/media/edit.c8dbb63f.svg": "/react-university-03-state-forms/static/media/edit.c8dbb63f.svg",
+    "static/media/Sidebar.css": "/react-university-03-state-forms/static/media/hide.ed0b8ac3.svg",
+    "static/media/location.cf55b5bb.svg": "/react-university-03-state-forms/static/media/location.cf55b5bb.svg",
+    "static/media/mail.fdbc9eb8.svg": "/react-university-03-state-forms/static/media/mail.fdbc9eb8.svg",
+    "static/media/phone.b784727a.svg": "/react-university-03-state-forms/static/media/phone.b784727a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a3ec337.js",
+    "static/js/runtime-main.88111357.js",
     "static/js/2.d36e83a2.chunk.js",
-    "static/css/main.6fb8b638.chunk.css",
-    "static/js/main.fa46cf65.chunk.js"
+    "static/css/main.a27ce38e.chunk.css",
+    "static/js/main.12ee07e0.chunk.js"
   ]
 }
